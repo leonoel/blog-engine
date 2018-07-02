@@ -138,4 +138,4 @@
       (ch/site)))
 
 (defn -main [& _]
-  (j/run-jetty #'app {:port (read-env "PORT") :join? false}))
+  (j/run-jetty #'app {:port (read-env "PORT")}))

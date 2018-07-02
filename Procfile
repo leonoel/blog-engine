@@ -1,1 +1,1 @@
-web: java -cp `mvn -q exec:exec -Dexec.executable=echo -Dexec.args="%classpath"`:src clojure.main -m pager.core
+web: java -jar target/app.jar -m blog-engine
